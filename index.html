@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Maverick G. Fabroa" />
+        <meta name="description" content="Bézier Curves by Maverick Fabroa using my brain and linear interpolation." />
+        <meta name="theme-color" content="080808" />
+        <meta property="og:title" content="Bézier Curves by Mavy💚" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mavyfaby.ml/projects/bezier-curve" />
+        <meta property="og:description" content="Bézier Curves by Maverick Fabroa using my brain and linear interpolation." />
+        <meta property="og:email" content="maverickfabroa@gmail.com" />
+        <meta property="og:phone_number" content="+639229629963" />
+        <meta property="og:image" content="https://mavyfaby.ml/projects/bezier-curve/assets/img/thumbnail.png" />
+        <meta property="og:image:width" content="1600" />
+        <meta property="og:image:height" content="900" />
+        <title>Bézier Curves by Mavy💚</title>
+        <!-- Icon -->
+        <link rel="icon" size="1024x1024" href="./assets/img/icon.png" />
+        <!-- Winbox CSS -->
+        <link rel="stylesheet" type="text/css" href="./assets/lib/winbox/winbox.min.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/lib/winbox/themes/modern.min.css" />
+        <!-- KaTeX (Math typings) -->
+        <link rel="stylesheet" type="text/css" href="./assets/lib/katex/katex.min.css " />
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    </head>
+    <body>
+
+        <div class="information">
+            <div id="information-content" class="content">
+                <h2>Bézier Curves</h2>
+                <p>
+                    A Bézier curve (/ˈbɛz.i.eɪ/ BEH-zee-ay) is a parametric curve used in computer graphics and related fields.
+                    The curves, which are related to Bernstein polynomials, are named after French engineer Pierre Bézier,
+                    who used it in the 1960s for designing curves for the bodywork of Renault cars.
+                    (source: <a target="_blank" href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Wikipedia</a>)
+                </p>
+
+                <h2>Linear interpolation</h2>
+                <p>
+                    In mathematics, linear interpolation is a method of curve fitting using linear polynomials
+                    to construct new data points within the range of a discrete set of known data points.
+                    (source: <a target="_blank" href="https://en.wikipedia.org/wiki/Linear_interpolation">Wikipedia</a>)
+                </p>
+
+                <p>Mathematically, you can write Linear interpolation or <strong>lerp</strong> as: </p>
+                <p class="formula" id="lerp-formula"></p>
+
+                <p class="info">Author: <a target="_blank" href="https://web.facebook.com/mavyfaby">Maverick G. Fabroa</a></p>
+                <p class="info">Github profile: <a target="_blank" href="https://github.com/mavyfaby">@mavyfaby</a></p>
+                <p class="info">Github repo: <a target="_blank" href="https://github.com/mavyfaby/bezier-curve">bezier-curve</a></p>
+            </div>
+        </div>
+
+        <!-- p5 -->
+        <script type="text/javascript" src="./assets/lib/p5.min.js"></script>
+        <!-- Dat GUI Controls -->
+        <script type="text/javascript" src="./assets/lib/dat.gui.min.js"></script>
+        <!-- KaTeX (Math typings) -->
+        <script type="text/javascript" src="./assets/lib/katex/katex.min.js"></script>
+        <!-- Winbox JS -->
+        <script type="text/javascript" src="./assets/lib/winbox/winbox.min.js"></script>
+        <!-- Bezier Curve implementation by Mavy -->
+        <script type="text/javascript" src="./assets/js/BezierCurve.js"></script>
+        <!-- Sketch -->
+        <script type="text/javascript" src="./assets/js/sketch.js"></script>
+    </body>
+</html>

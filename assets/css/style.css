@@ -1,0 +1,58 @@
+/**
+ * ------------------------------------
+ * Author: Maverick G. Fabroa
+ * ------------------------------------
+ * Date: October 31, 2021
+ * ------------------------------------
+ * Inspired by: LeighM
+ * ------------------------------------
+ */
+
+body {
+    padding: 0;
+    margin: 0; 
+    height: 100vh;
+    font-family: "Roboto", sans-serif !important;
+    overscroll-behavior: contain !important;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.information {
+    display: none;
+}
+
+#information-content.content {
+    padding: 16px;
+}
+
+#information-content.content h2 {
+    margin-top: 0;
+}
+
+#information-content.content p {
+    text-align: justify;
+}
+
+a:link {
+    color: #4285F4;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.formula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
