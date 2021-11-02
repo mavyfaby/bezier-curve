@@ -17,7 +17,7 @@
         this.pointRadius = 8;
         this.extraDetection = 1.5;
         this.curvePoints = [];
-        this.curveColor = [75, 255, 0];
+        this.curveColor = [240, 0, 255];
         this.isReversed = false;
         this.resetIndex = 0;
         this.t = 0;
