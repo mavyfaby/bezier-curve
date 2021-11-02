@@ -23,7 +23,8 @@ const info = {
             
             new WinBox("Bézier Curves by Mavy💚", {
                 class: "modern",
-                root: document.body,
+                x: "center",
+                y: "center",
                 mount: document.getElementById("information-content").cloneNode(true),
                 onclose: () => {
                     this.shown = false;

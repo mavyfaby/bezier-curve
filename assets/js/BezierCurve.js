@@ -87,6 +87,21 @@
     }
 
     /**
+     * Set shadow to an object
+     * 
+     * @param double x 
+     * @param double y 
+     * @param int b 
+     * @param string c 
+     */
+    setShadow(x,y,b,c) {
+        drawingContext.shadowBlur = b;
+        drawingContext.shadowColor = c;
+        drawingContext.shadowOffsetX = x;
+        drawingContext.shadowOffSetY = y;
+    }
+
+    /**
      * Show status
      */
     showDetails() {
@@ -96,6 +111,9 @@
         strokeWeight(1);
         textFont("monospace");
         textSize(12);
+
+        this.setShadow(5, 5, 50,`rgb(${this.curveColor[0]}, ${this.curveColor[1]}, ${this.curveColor[2]}`);
+
         text("Author      : Maverick G. Fabroa", 20, 35);
         text("FPS         : " + floor(frameRate()), 20, 55);
         text("Points      : " + this.points.length, 20, 75);
@@ -270,6 +288,8 @@
         beginShape();
         strokeWeight(5);
         stroke(this.curveColor);
+        
+        this.setShadow(5, 5, 25,`rgb(${this.curveColor[0]}, ${this.curveColor[1]}, ${this.curveColor[2]}`);
         
         // For every curve points
         for (let i = 0; i < this.curvePoints.length; i++) {
