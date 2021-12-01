@@ -14,7 +14,7 @@ who used it in the 1960s for designing curves for the bodywork of Renault cars.
 to construct new data points within the range of a discrete set of known data points.
 (source: <a target="_blank" href="https://en.wikipedia.org/wiki/Linear_interpolation">Wikipedia</a>)
 
-## Technologies
+## Dependencies
 * <a target="_blank" href="https://github.com/processing/p5.js">p5.js</a> - Drawing graphics
 * <a target="_blank" href="https://github.com/KaTeX/KaTeX">KaTeX</a> - Math processing
 * <a target="_blank" href="https://github.com/dataarts/dat.gui">Dat GUI</a> - Controls
